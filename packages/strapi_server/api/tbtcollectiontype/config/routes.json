@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tbtcollectiontypes",
+      "handler": "tbtcollectiontype.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tbtcollectiontypes/count",
+      "handler": "tbtcollectiontype.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tbtcollectiontypes/:id",
+      "handler": "tbtcollectiontype.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tbtcollectiontypes",
+      "handler": "tbtcollectiontype.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tbtcollectiontypes/:id",
+      "handler": "tbtcollectiontype.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tbtcollectiontypes/:id",
+      "handler": "tbtcollectiontype.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

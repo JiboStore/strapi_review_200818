@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_category_mycomponents",
+  "info": {
+    "name": "mycomponent",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "integer"
+    }
+  }
+}
